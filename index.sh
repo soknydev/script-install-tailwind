@@ -29,7 +29,7 @@ else
     TAILWIND_PID=$!
 
     # Create the example HTML file
-    cd ../
+    cd ../script
     ls -l
     bash create_html_file.sh "$dir_name"
 
